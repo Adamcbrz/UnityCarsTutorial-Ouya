@@ -162,7 +162,7 @@ public class OuyaExampleCommon
 			case "SONY PLAYSTATION(R)3 CONTROLLER":
 			
 #if !UNITY_EDITOR && UNITY_ANDROID
-
+				/// ****** NOT TESTED ON OUYA ******* ///
                 switch (ouyaMapping)
                 {
                     case "LX":
@@ -174,28 +174,30 @@ public class OuyaExampleCommon
                         break;
                     case "RX":
                         axisName = string.Format("Joy{0} Axis 3", (int)player);
+                        invert = true;
                         break;
                     case "RY":
                         axisName = string.Format("Joy{0} Axis 4", (int)player);
-                        invert = true;
                         break;
                     case "LT":
-                        axisName = string.Format("Joy{0} Axis 7", (int)player);
-                        break;
-                    case "RT":
                         axisName = string.Format("Joy{0} Axis 8", (int)player);
                         break;
+                    case "RT":
+                        axisName = string.Format("Joy{0} Axis 9", (int)player);
+                        break;
                     case "DL":
-                        axisName = string.Format("Joy{0} Axis 5", (int)player);
+                        axisName = string.Format("Joy{0} Axis 6", (int)player);
+                        invert = true;
                         break;
                     case "DR":
-                        axisName = string.Format("Joy{0} Axis 5", (int)player);
+                        axisName = string.Format("Joy{0} Axis 6", (int)player);
+                        invert = true;
                         break;
                     case "DU":
-                        axisName = string.Format("Joy{0} Axis 6", (int)player);
+                        axisName = string.Format("Joy{0} Axis 7", (int)player);
                         break;
                     case "DD":
-                        axisName = string.Format("Joy{0} Axis 6", (int)player);
+                        axisName = string.Format("Joy{0} Axis 7", (int)player);
                         break;
                     default:
                         return 0f;
@@ -575,40 +577,46 @@ public class OuyaExampleCommon
 			
 			case "SONY PLAYSTATION(R)3 CONTROLLER":
 #if !UNITY_EDITOR && UNITY_ANDROID
-
-                /*switch (keyCode)
+				/// ****** NOT TESTED ON OUYA ******* ///
+                switch (keyCode)
                 {
-                    case OuyaSDK.KeyEnum.BUTTON_LB:
-                        return GetButton(player, 6);
+                   case OuyaSDK.KeyEnum.BUTTON_LB:
+                        return GetButton(player, 10);
                     case OuyaSDK.KeyEnum.BUTTON_RB:
-                        return GetButton(player, 7);
+                        return GetButton(player, 11);
                     case OuyaSDK.KeyEnum.BUTTON_O:
-                        return GetButton(player, 0);
-                    case OuyaSDK.KeyEnum.BUTTON_U:
-                        return GetButton(player, 3);
-                    case OuyaSDK.KeyEnum.BUTTON_Y:
-                        return GetButton(player, 4);
-                    case OuyaSDK.KeyEnum.BUTTON_A:
-                        return GetButton(player, 1);
-                    case OuyaSDK.KeyEnum.BUTTON_L3:
-                        return GetButton(player, 13);
-                    case OuyaSDK.KeyEnum.BUTTON_R3:
                         return GetButton(player, 14);
+                    case OuyaSDK.KeyEnum.BUTTON_U:
+                        return GetButton(player, 15);
+                    case OuyaSDK.KeyEnum.BUTTON_Y:
+                        return GetButton(player, 12);
+                    case OuyaSDK.KeyEnum.BUTTON_A:
+                        return GetButton(player, 13);
+                    case OuyaSDK.KeyEnum.BUTTON_L3:
+                        return GetButton(player, 1);
+                    case OuyaSDK.KeyEnum.BUTTON_R3:
+                        return GetButton(player, 2);
                     case OuyaSDK.KeyEnum.BUTTON_DPAD_UP:
-                        return GetAxis("DU", player) > 0f;
+						return GetButton(player, 4);
+                        //return GetAxis("DU", player) > 0f;
                     case OuyaSDK.KeyEnum.BUTTON_DPAD_DOWN:
-                        return GetAxis("DD", player) < 0f;
+						return GetButton(player, 6);
+                        //return GetAxis("DD", player) < 0f;
                     case OuyaSDK.KeyEnum.BUTTON_DPAD_LEFT:
-                        return GetAxis("DL", player) < 0f;
+						return GetButton(player, 7);
+                        //return GetAxis("DL", player) < 0f;
                     case OuyaSDK.KeyEnum.BUTTON_DPAD_RIGHT:
-                        return GetAxis("DR", player) > 0f;
+						return GetButton(player, 5);
+                        //return GetAxis("DR", player) > 0f;
                     case OuyaSDK.KeyEnum.BUTTON_LT:
-                        return GetAxis("LT", player) > 0f;
+						return GetButton(player, 8);
+                        //return GetAxis("LT", player) > 0f;
                     case OuyaSDK.KeyEnum.BUTTON_RT:
-                        return GetAxis("RT", player) > 0f;
+						return GetButton(player, 9);
+                        //return GetAxis("RT", player) > 0f;
                     default:
                         return false;
-                }*/
+                }
 #else
 				
                 switch (keyCode)
