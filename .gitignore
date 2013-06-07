@@ -1,0 +1,26 @@
+Project/Temp/*
+Project/Library/*
+Project/Build/*
+#Un-ignore these specific files
+#!Project/Library/*.asset
+#!Project/Library/AssetImportState
+#!Project/Library/AssetVersioning.db
+#!Project/Library/BuildPlayer.prefs
+#!Project/Library/ScriptMapper
+#!Project/Library/assetservercachev3
+#!Project/Library/expandedItems
+#ignoring pidb, they are just code completion caching data according to:
+# http://stackoverflow.com/questions/1022111/what-are-monodevelops-pidb-files
+*.pidb
+*.userprefs
+!.gitignore
+.DS_Store
+Project/*.csproj
+Project/*.sln
+Project/*.unityproj
+Assembly-UnityScript-vs.unityproj
+Assembly-UnityScript.unityproj
+Assembly-CSharp-vs.csproj
+Assembly-CSharp.csproj
+OuyaTest.sln
+OuyaTest-csharp.sln

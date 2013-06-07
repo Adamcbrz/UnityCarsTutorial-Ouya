@@ -1,0 +1,137 @@
+fileFormatVersion: 2
+guid: 82e1ac56d1534384ca26b9cdb0f3dad0
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: DPad_Right_GEO
+    100002: Controller_LBummper_GEO
+    100004: Controller_RBummper_GEO
+    100006: Controller_LTrigger_GEO
+    100008: Controller_LThumbstick_GEO
+    100010: Controller_RTrigger_GEO
+    100012: Controller_buttonA_GEO
+    100014: Controller_buttonY_GEO
+    100016: Controller_buttonU_GEO
+    100018: Controller_buttonO_GEO
+    100020: Controller_DPad_GEO
+    100022: Controller_RThumbstick_GEO
+    100024: Controller_Body_GEO
+    100026: //RootNode
+    100028: DPad_Down_GEO
+    100030: DPad_Up_GEO
+    100032: DPad_Left_GEO
+    400000: DPad_Right_GEO
+    400002: Controller_LBummper_GEO
+    400004: Controller_RBummper_GEO
+    400006: Controller_LTrigger_GEO
+    400008: Controller_LThumbstick_GEO
+    400010: Controller_RTrigger_GEO
+    400012: Controller_buttonA_GEO
+    400014: Controller_buttonY_GEO
+    400016: Controller_buttonU_GEO
+    400018: Controller_buttonO_GEO
+    400020: Controller_DPad_GEO
+    400022: Controller_RThumbstick_GEO
+    400024: Controller_Body_GEO
+    400026: //RootNode
+    400028: DPad_Down_GEO
+    400030: DPad_Up_GEO
+    400032: DPad_Left_GEO
+    2300000: DPad_Right_GEO
+    2300002: Controller_LBummper_GEO
+    2300004: Controller_RBummper_GEO
+    2300006: Controller_LTrigger_GEO
+    2300008: Controller_LThumbstick_GEO
+    2300010: Controller_RTrigger_GEO
+    2300012: Controller_buttonA_GEO
+    2300014: Controller_buttonY_GEO
+    2300016: Controller_buttonU_GEO
+    2300018: Controller_buttonO_GEO
+    2300020: Controller_RThumbstick_GEO
+    2300022: Controller_Body_GEO
+    2300024: DPad_Down_GEO
+    2300026: DPad_Up_GEO
+    2300028: DPad_Left_GEO
+    3300000: DPad_Right_GEO
+    3300002: Controller_LBummper_GEO
+    3300004: Controller_RBummper_GEO
+    3300006: Controller_LTrigger_GEO
+    3300008: Controller_LThumbstick_GEO
+    3300010: Controller_RTrigger_GEO
+    3300012: Controller_buttonA_GEO
+    3300014: Controller_buttonY_GEO
+    3300016: Controller_buttonU_GEO
+    3300018: Controller_buttonO_GEO
+    3300020: Controller_RThumbstick_GEO
+    3300022: Controller_Body_GEO
+    3300024: DPad_Down_GEO
+    3300026: DPad_Up_GEO
+    3300028: DPad_Left_GEO
+    4300000: Controller_Body_GEO
+    4300002: Controller_RThumbstick_GEO
+    4300004: DPad_Right_GEO
+    4300006: DPad_Left_GEO
+    4300008: DPad_Up_GEO
+    4300010: DPad_Down_GEO
+    4300012: Controller_buttonO_GEO
+    4300014: Controller_buttonU_GEO
+    4300016: Controller_buttonY_GEO
+    4300018: Controller_buttonA_GEO
+    4300020: Controller_RTrigger_GEO
+    4300022: Controller_LThumbstick_GEO
+    4300024: Controller_LTrigger_GEO
+    4300026: Controller_RBummper_GEO
+    4300028: Controller_LBummper_GEO
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 
